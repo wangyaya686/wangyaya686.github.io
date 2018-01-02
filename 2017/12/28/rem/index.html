@@ -14,7 +14,7 @@
 <meta property="og:url" content="http://yoursite.com/2017/12/28/rem/index.html">
 <meta property="og:site_name" content="亚亚的博客">
 <meta property="og:description" content="title: rem在小米和三星等某些手机上实际尺寸大于预期尺寸今天刚开的博客很开心啊/:,@-D根据屏幕尺寸自动调整根元素字体大小代码：    // 750设计稿下，1rem等于40px    !(function(doc, win) {        var docEle = doc.documentElement,        evt = “onorientationchange” in">
-<meta property="og:updated_time" content="2018-01-02T10:36:35.680Z">
+<meta property="og:updated_time" content="2018-01-02T10:44:29.164Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="亚亚的博客">
 <meta name="twitter:description" content="title: rem在小米和三星等某些手机上实际尺寸大于预期尺寸今天刚开的博客很开心啊/:,@-D根据屏幕尺寸自动调整根元素字体大小代码：    // 750设计稿下，1rem等于40px    !(function(doc, win) {        var docEle = doc.documentElement,        evt = “onorientationchange” in">
@@ -159,7 +159,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <hr>
-<p>title: rem在小米和三星等某些手机上实际尺寸大于预期尺寸<br>今天刚开的博客很开心啊/:,@-D<br>根据屏幕尺寸自动调整根元素字体大小代码：<br>    // 750设计稿下，1rem等于40px<br>    !(function(doc, win) {<br>        var docEle = doc.documentElement,<br>        evt = “onorientationchange” in window ? “orientationchange” : “resize”,<br>        fn = function() {<br>        var designWidth = 750, rem2px = 40;<br>        var d = window.document.createElement(‘div’);<br>        d.style.width = ‘1rem’;<br>        d.style.display = “none”;<br>        var head = window.document.getElementsByTagName(‘head’)[0];<br>        head.appendChild(d);<br>        var defaultFontSize = parseFloat(window.getComputedStyle(d, null).getPropertyValue(‘width’));<br>        document.documentElement.style.fontSize =<br>          window.innerWidth / designWidth <em> rem2px / defaultFontSize </em> 100 + ‘%’;<br>        };<br>        win.addEventListener(evt, function(){<br>          setTimeout(function(){<br>               fn();<br>            }, 300);<br>        }, false);<br>        fn();<br>        }(document, window));ontentLoaded’, recalc, false);<br>  })(document, window);<br>    作者：黄家兴<br>    链接：<a href="https://www.zhihu.com/question/63243623/answer/207266678" target="_blank" rel="noopener">https://www.zhihu.com/question/63243623/answer/207266678</a><br>    来源：知乎</p>
+<p>title: rem在小米和三星等某些手机上实际尺寸大于预期尺寸<br>今天刚开的博客很开心啊/:,@-D<br>根据屏幕尺寸自动调整根元素字体大小代码：<br>    // 750设计稿下，1rem等于40px<br>    !(function(doc, win) {<br>        var docEle = doc.documentElement,<br>        evt = “onorientationchange” in window ? “orientationchange” : “resize”,<br>        fn = function() {<br>        var designWidth = 750, rem2px = 40;<br>        var d = window.document.createElement(‘div’);<br>        d.style.width = ‘1rem’;<br>        d.style.display = “none”;<br>        var head = window.document.getElementsByTagName(‘head’)[0];<br>        head.appendChild(d);<br>        var defaultFontSize = parseFloat(window.getComputedStyle(d, null).getPropertyValue(‘width’));<br>        document.documentElement.style.fontSize =<br>          window.innerWidth / designWidth <em> rem2px / defaultFontSize </em> 100 + ‘%’;<br>        };<br>        win.addEventListener(evt, function(){<br>          setTimeout(function(){<br>               fn();<br>            }, 300);<br>        }, false);<br>        fn();<br>        }(document, window));<br>    作者：黄家兴<br>    链接：<a href="https://www.zhihu.com/question/63243623/answer/207266678" target="_blank" rel="noopener">https://www.zhihu.com/question/63243623/answer/207266678</a><br>    来源：知乎</p>
 
       
 
